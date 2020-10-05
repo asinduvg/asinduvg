@@ -1,6 +1,7 @@
-<img align=left alt="asinduvg's Github States" src="https://github-readme-stats.vercel.app/api?username=asinduvg&show_icons=true&hide_border=true" />
+[![asinduvg's github stats](https://github-readme-stats.vercel.app/api?username=asinduvg)](https://github.com/asinduvg/github-readme-stats)
 
 ---
+
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=asinduvg" />
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=asinduvg)](https://github.com/asinduvg/github-readme-stats)
