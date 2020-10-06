@@ -2,7 +2,7 @@
 
 ---
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=asinduvg&layout=compact)](https://github.com/asinduvg/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=asinduvg&exclude_repo=joomla-example,joomla-cms&layout=compact)](https://github.com/asinduvg/github-readme-stats)
 
 ---
 
