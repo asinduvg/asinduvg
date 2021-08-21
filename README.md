@@ -49,13 +49,6 @@
   
 
 - VSCode or Jetbrains? -> Love both 🙈  
-  
-
--  Coffee or Water? -> Water 🥛  
-  
-
-- Early bird or night owl? -> Early bird 🌄  
-  
 
 <br/>  
 
