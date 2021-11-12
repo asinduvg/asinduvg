@@ -40,23 +40,9 @@
 
 </p>
 </pre>
-  
-
-### <div align="center">🕶️</div>  
-  
-
-- Dark theme or Light theme? -> Light theme on day, Dark theme on night 🌖  
-  
-
-- VSCode or Jetbrains? -> Love both 🙈  
-
-<br/>  
-
 
 ## My Skill Set  
 <table><tr><td valign="top" width="33%">
-
-
 
 ### Frontend  
 <div align="center">  
