@@ -20,6 +20,9 @@ Attention!!
    <a href="https://github.com/asinduvg/scala-akka-framework"><img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=asinduvg&repo=scala-akka-framework&theme=react&bg_color=1C1E4D&title_color=669AD6&icon_color=94ABC4&hide_border=true&show_icons=false" alt="scala-akka-framework"></a>  
   <a href="https://github.com/asinduvg/scala-spark"><img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=asinduvg&repo=scala-spark&theme=react&bg_color=293D83&title_color=669AD6&icon_color=94ABC4&hide_border=true&show_icons=false" alt="scala-spark"></a>  
 </p>  
+
+## My top languages
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=asinduvg&layout=compact&bg_color=1C1E4D&title_color=669AD6&theme=shades-of-purple&hide_border=true)
   
 <img src="https://media.giphy.com/media/UGKF6u2TDbuJzxdtzc/giphy.gif" width="100" align="right">  
   
