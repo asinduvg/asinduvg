@@ -1,124 +1,53 @@
-<!-- <div align="center">
-<img src="https://rishavanand.github.io/static/images/greetings.gif" align="center" style="width: 100%" />
-</div>   -->
 
-<pre>
-<p align="center">
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@,  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  &@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  *@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@(  .@@@@@@@, .@@@@@@@@@@@@@@@@@@@@@@@@@@@             @@@
-@@@@@@@@@@@@@@@@@@@@@@   *  @@@@@@@(  @@@@@@@@@@@@@@@@@@@@@@@@@  %@@@@@@@  ,@@@@
-@@@@@@@@@@@@@@@@@@@@@  (@@%  @@@@@@@&  &@@@@@@@@@@@@@@@@@@@@@&  @@@@@@@@  &@@@@@
-@@@@@@@@@@@@@@@@@@@@  &@@@@@  %@@@@@@@  /@@@@@@@@@@@@@@@@@@@*  @@@@@@@%  @@@@@@@
-@@@@@@@@@@@@@@@@@@(  @@@@@@@@  ,@@@@@@@. .@@@@@@@@@@@@@@@@@  ,@@@@@@@,  @@@@@@@@
-@@@@@@@@@@@@@@@@@.  @@@@@@@@@@*  @@@@@@@(  @@@@@@@@@@@@@@@  #@@@@@@@  ,@@@@@@@@@
-@@@@@@@@@@@@@@@@  /@@@@@@@@@@@@%  @@@@@@@&  &@@@@@@@@@@@&  @@@@@@@@  &@@@@@@@@@@
-@@@@@@@@@@@@@@@  &@@@@@@@@@@@@@@@  %@@@@@@@  (@@@@@@@@@/  @@@@@@@%  @@@@@@@@@@@@
-@@@@@@@@@@@@@#  @@@@@@@@@@@@@@@@@@  *@@@@@@@. .@@@@@@@  .@@@@@@@,  @@@@@@@@@@@@@
-@@@@@@@@@@@@.  @@@@@@@@@@@@@@@@@@@@,  @@@@@@@/  @@@@@  (@@@@@@@  ,@@@@@@@@@@@@@@
-@@@@@@@@@@@  /@@@@@@@             @@#  @@@@@@@&  &@@  @@@@@@@@  &@@@@@@@@@@@@@@@
-@@@@@@@@@@  %@@@@@@@  (@@@@@@@@@@@@@@@  %@@@@@@@  (@@@@@@@@@&  @@@@@@@@@@@@@@@@@
-@@@@@@@@#  @@@@@@@@  @@@@@@@@@@@@@@@@@@  *@@@@@@@  ,@@@@@@@,  @@@@@@@@@@@@@@@@@@
-@@@@@@@,  @@@@@@@/  @@@@@@@@@@@@@@@@@@@@,  @@@@@@@/  @@@@@  ,@@@@@@@@@@@@@@@@@@@
-@@@@@@  *@@@@@@@  .@@@@@@@@@@@@@@@@@@@@@@#  @@@@@@@%  @@@  %@@@@@@@@@@@@@@@@@@@@
-@@@@@  %@@@@@@@  (@@@@@@@@@@@@@@@@@@@@@@@@@  &@@@@@@@  /  @@@@@@@@@@@@@@@@@@@@@@
-@@@%            @@@@@@@@@@@@@@@@@@@@@@@@@@@@  /@@@@@@@   @@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@, .@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&  &@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  /@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-</p>
-</pre>
-
-## My Skill Set  
-<table><tr><td valign="top" width="33%">
-
-### Frontend  
-<div align="center">  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bem.svg" alt="BEM" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/sass-original.svg" alt="Sass" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/redux-original.svg" alt="Redux" height="50" />  
-</div>
-
-</td><td valign="top" width="33%">
-
-
-
-### Backend  
-<div align="center">  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="C++" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/scala-original-wordmark.svg" alt="Scala" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/postgresql-original-wordmark.svg" alt="PostgreSQL" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mariadb.png" alt="Maria DB" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/xampp.png" alt="XAMPP" height="50" />  
-</div>
-
-</td><td valign="top" width="33%">
-
-
-
-### Other  
-<div align="center">  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gitlab.svg" alt="GitLab" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/webpack-original.svg" alt="Webpack" height="50" />  
-</div>
-
-</td></tr></table>  
-
+  
+<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->  
+<p align="center" >  
+      <img src="https://media.giphy.com/media/mZm6Boe1RSbs5JiwIM/giphy.gif" width="200" align="center"/>  
+      <br/>  
+   <img src="https://readme-typing-svg.herokuapp.com?font=Hack&color=%23A663DF&size=23&center=true&lines=Hi!;I'm+Asindu%2C;Asindu+Vidanagamachchi;Greetings!!" width="80%" align="center"/>  
+</p>  
+Welcome people, I'm a backend dev with a little touch of frontend. I'm from Sri Lanka and a huge fan of PvZ, hell yeah 😎. And, I'm a functional programmer working together with SCALA.  
 <br/>  
-
-
-## Github Stats  
-<div align="center"><img src="https://github-readme-stats.vercel.app/api?username=asinduvg&show_icons=true&count_private=true&hide_border=true" align="center" /></div>  
-
-<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=asinduvg&hide_border=true&layout=compact" align="center" /></div>  
-
 <br/>  
+Attention!!  
+<span style="color:red">Beware of zombies down there!</span>  
+  
+## My top projects  
+ 
+<p align="left">  
+  <a href="https://github.com/GrowVirtually/Backend-API"><img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=GrowVirtually&repo=Backend-API&theme=react&bg_color=1C1E4D&title_color=669AD6&icon_color=94ABC4&hide_border=true&show_icons=false" alt="grovi-backend"></a>  
+  <a href="https://github.com/utrance-lk/utrance-railway"><img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=utrance-lk&repo=utrance-railway&theme=react&bg_color=293D83&title_color=669AD6&icon_color=94ABC4&hide_border=true&show_icons=false" alt="utrance-railway"></a>  
+   <a href="https://github.com/asinduvg/scala-akka-framework"><img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=asinduvg&repo=scala-akka-framework&theme=react&bg_color=1C1E4D&title_color=669AD6&icon_color=94ABC4&hide_border=true&show_icons=false" alt="scala-akka-framework"></a>  
+  <a href="https://github.com/asinduvg/scala-spark"><img width="282" src="https://github-readme-stats.vercel.app/api/pin/?username=asinduvg&repo=scala-spark&theme=react&bg_color=293D83&title_color=669AD6&icon_color=94ABC4&hide_border=true&show_icons=false" alt="scala-spark"></a>  
+</p>  
+  
+<img src="https://media.giphy.com/media/UGKF6u2TDbuJzxdtzc/giphy.gif" width="100" align="right">  
+  
+###  Interests  
+* Functional and Concurrent Programming  
+* Distributed Computing  
+* Big Data  
+* Blockchain and DAPPs  
 
+<img src="https://media.giphy.com/media/kuLD62BPrv5YpGI4mL/giphy.gif" align="right">  
+<img src="https://media.giphy.com/media/hpFWDcd02FSE1Mujoo/giphy.gif" align="right" width="100">  
+<img src="https://media.giphy.com/media/E0Iz6kHqRv1LS4PlBq/giphy.gif" align="right" width="100">  
+  
+### Technologies  & Tools
 
-## Connect with me  
-<div align="center">
-<a href="https://dev.to/asinduvg" target="_blank">
-<img src=https://img.shields.io/badge/dev.to-%2308090A.svg?&style=for-the-badge&logo=dev.to&logoColor=white alt=devto style="margin-bottom: 5px;" />
-</a>
-<a href="https://linkedin.com/in/asinduvg" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>
-<a href="https://github.com/asinduvg" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://gitlab.com/asinduvg" target="_blank">
-<img src=https://img.shields.io/badge/-GitLab-black?&style=for-the-badge&logo=gitlab&logoColor=white alt=gitlab style="margin-bottom: 5px;" />
-</a>
-<a href="https://twitter.com/asinduvg" target="_blank">
-<img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
-</a>
-<a href="https://medium.com/asinduvg" target="_blank">
-<img src=https://img.shields.io/badge/medium-%23292929.svg?&style=for-the-badge&logo=medium&logoColor=white alt=medium style="margin-bottom: 5px;" />
-</a>  
-</div>  
-
-<br />
+![](https://img.shields.io/badge/OS-Windows-informational?style=flat&logo=windows&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Editor-IntelliJ_IDEA-informational?style=flat&logo=intellij-idea&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-Scala-informational?style=flat&logo=scala&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=java&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-Cpp-informational?style=flat&logo=cplusplus&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-PHP-informational?style=flat&logo=php&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-Nodejs-informational?style=flat&logo=node.js&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-React-informational?style=flat&logo=react&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-Redux-informational?style=flat&logo=redux&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-CSS-informational?style=flat&logo=css3&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-Sass-informational?style=flat&logo=sass&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Shell-Powershell-informational?style=flat&logo=powershell&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tools-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tools-Kubernetes-informational?style=flat&logo=kubernetes&logoColor=white&color=2bbc8a)
