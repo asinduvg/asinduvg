@@ -6,7 +6,7 @@
       <br/>  
    <img src="https://readme-typing-svg.herokuapp.com?font=Hack&color=%23A663DF&size=23&center=true&lines=Hi!;I'm+Asindu%2C;Asindu+Vidanagamachchi;Greetings!!" width="80%" align="center"/>  
 </p>  
-Welcome people, I'm a backend dev with a little touch of frontend. I'm from Sri Lanka and a huge fan of PvZ, hell yeah 😎. And, I'm a functional programmer working together with SCALA.  
+Welcome people, I'm a backend dev with a little touch of frontend. I'm a huge fan of PvZ, hell yeah 😎. Further, I'm passionate about functional programming.  Most of the time, me and my friend Phat Beet are working together in projects. Let's rock 🤘🏽
 <br/>  
 <br/>  
 Attention!!  
