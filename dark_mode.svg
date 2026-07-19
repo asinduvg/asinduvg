@@ -46,11 +46,11 @@ text, tspan {white-space: pre;}
 <tspan x="440" y="175" class="cc">. </tspan><tspan class="key">SO Rep</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">67</tspan>
 <tspan x="440" y="195" class="cc">. </tspan><tspan class="key">Blog</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">https://medium.com/@asinduvg</tspan>
 <tspan x="440" y="225" class="key">─ Top Languages ───────────────────────────────────</tspan>
-<tspan x="440" y="247" class="cc">. </tspan><tspan class="key">TypeScript</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">███████░░░░░░░░ 44%</tspan>
-<tspan x="440" y="267" class="cc">. </tspan><tspan class="key">Scala</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">████░░░░░░░░░░░ 26%</tspan>
-<tspan x="440" y="287" class="cc">. </tspan><tspan class="key">PHP</tspan>:<tspan class="cc"> ............... </tspan><tspan class="value">██░░░░░░░░░░░░░ 13%</tspan>
-<tspan x="440" y="307" class="cc">. </tspan><tspan class="key">JavaScript</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">█░░░░░░░░░░░░░░ 9%</tspan>
-<tspan x="440" y="327" class="cc">. </tspan><tspan class="key">MATLAB</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">█░░░░░░░░░░░░░░ 8%</tspan>
+<tspan x="440" y="247" class="cc">. </tspan><tspan class="key">TypeScript</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">█████░░░░░░░░░░ 36%</tspan>
+<tspan x="440" y="267" class="cc">. </tspan><tspan class="key">Scala</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">████░░░░░░░░░░░ 30%</tspan>
+<tspan x="440" y="287" class="cc">. </tspan><tspan class="key">PHP</tspan>:<tspan class="cc"> ............... </tspan><tspan class="value">██░░░░░░░░░░░░░ 15%</tspan>
+<tspan x="440" y="307" class="cc">. </tspan><tspan class="key">MATLAB</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">██░░░░░░░░░░░░░ 10%</tspan>
+<tspan x="440" y="327" class="cc">. </tspan><tspan class="key">JavaScript</tspan>:<tspan class="cc"> ........ </tspan><tspan class="value">█░░░░░░░░░░░░░░ 9%</tspan>
 <tspan x="440" y="357" class="key">─ Contact ─────────────────────────────────────────</tspan>
 <tspan x="440" y="379" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">asinduvg@outlook.com</tspan>
 <tspan x="440" y="399" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">asindu-vidanagamachchi</tspan>

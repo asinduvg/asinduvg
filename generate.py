@@ -39,15 +39,28 @@ def fetch_pinned_repos(username):
     return data["data"]["user"]["pinnedItems"]["nodes"]
 
 
+def fetch_user_node_id(username):
+    result = subprocess.run(
+        ["gh", "api", "graphql", "-f",
+         'query={ user(login: "' + username + '") { id } }'],
+        capture_output=True, text=True, check=True,
+    )
+    return json.loads(result.stdout)["data"]["user"]["id"]
+
+
 def fetch_top_languages(username, limit=5):
+    user_id = fetch_user_node_id(username)
     query = (
-        '{ user(login: "%s") { repositories(first: 100, isFork: false, '
+        '{ user(login: "' + username + '") { repositories(first: 100, isFork: false, '
         'ownerAffiliations: OWNER, orderBy: {field: UPDATED_AT, direction: DESC}) '
-        '{ nodes { languages(first: 10) { edges { size node { name } } } } } } }'
-        % username
+        '{ nodes { languages(first: 10) { edges { size node { name } } } '
+        'defaultBranchRef { target { ... on Commit { '
+        'history { totalCount } '
+        'authorHistory: history(author: {id: "' + user_id + '"}) { totalCount } '
+        '} } } } } } }'
     )
     result = subprocess.run(
-        ["gh", "api", "graphql", "-f", f"query={query}"],
+        ["gh", "api", "graphql", "-f", "query=" + query],
         capture_output=True, text=True, check=True,
     )
     data = json.loads(result.stdout)
@@ -55,9 +68,19 @@ def fetch_top_languages(username, limit=5):
 
     bytes_per_lang = {}
     for repo in repos:
+        branch = repo.get("defaultBranchRef")
+        if not branch:
+            continue
+        target = branch["target"]
+        total_commits = target["history"]["totalCount"]
+        my_commits = target["authorHistory"]["totalCount"]
+        if total_commits == 0:
+            continue
+        ratio = my_commits / total_commits
+
         for edge in repo.get("languages", {}).get("edges", []):
             name = edge["node"]["name"]
-            bytes_per_lang[name] = bytes_per_lang.get(name, 0) + edge["size"]
+            bytes_per_lang[name] = bytes_per_lang.get(name, 0) + edge["size"] * ratio
 
     sorted_langs = sorted(bytes_per_lang.items(), key=lambda x: x[1], reverse=True)
     top = sorted_langs[:limit]
