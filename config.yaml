@@ -16,6 +16,8 @@ sections:
         value: from_bio  # pulls from your GitHub bio
       - key: Founder
         value: SLESS & BlendedChat
+      - key: Fav AI Model
+        value: Claude Opus 4.6
       - key: Coding Since
         value: from_github  # auto: account age
       - key: Repos

@@ -249,7 +249,7 @@ def generate_svg(config, profile, pinned, ascii_lines, theme, top_langs=None, ex
 
     ascii_height = len(ascii_lines) * 22 + 30
     svg_height = max(ascii_height, panel_height + 30)
-    svg_width = 985
+    svg_width = 1100
 
     svg = f"""<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="{svg_width}px" height="{svg_height}px" font-size="16px">
@@ -274,19 +274,19 @@ text, tspan {{white-space: pre;}}
         y = 25 + i * 22
         svg += f'<tspan x="15" y="{y}">{escape_xml(line)}</tspan>\n'
 
-    svg += '</text>\n<text x="390" y="30" fill="' + colors["text"] + '">\n'
+    svg += '</text>\n<text x="440" y="30" fill="' + colors["text"] + '">\n'
 
     for item in right_panel:
         if item[0] == "header":
             _, y, text = item
-            svg += f'<tspan x="390" y="{y}">{escape_xml(text)}</tspan>\n'
+            svg += f'<tspan x="440" y="{y}">{escape_xml(text)}</tspan>\n'
         elif item[0] == "section":
             _, y, text = item
-            svg += f'<tspan x="390" y="{y}" class="key">{escape_xml(text)}</tspan>\n'
+            svg += f'<tspan x="440" y="{y}" class="key">{escape_xml(text)}</tspan>\n'
         elif item[0] == "field":
             _, y, key, dots, value = item
             svg += (
-                f'<tspan x="390" y="{y}" class="cc">. </tspan>'
+                f'<tspan x="440" y="{y}" class="cc">. </tspan>'
                 f'<tspan class="key">{escape_xml(key)}</tspan>:'
                 f'<tspan class="cc"> {dots} </tspan>'
                 f'<tspan class="value">{escape_xml(value)}</tspan>\n'
