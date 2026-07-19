@@ -1,0 +1,38 @@
+name: Generate Profile README
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"  # 1st of every month
+  workflow_dispatch: # manual trigger anytime
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pillow pyyaml
+
+      - name: Setup GitHub CLI auth
+        run: echo "${{ secrets.PAT_TOKEN }}" | gh auth login --with-token
+
+      - name: Generate SVGs
+        run: python generate.py
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dark_mode.svg light_mode.svg
+          git diff --cached --quiet || git commit -m "chore: regenerate profile SVGs"
+          git push

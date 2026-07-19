@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="454px" font-size="16px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.key {fill: #bf8700;}
+.value {fill: #0550ae;}
+.cc {fill: #656d76;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="985px" height="454px" fill="#ffffff" rx="15"/>
+<text x="15" y="30" fill="#1f2328" font-size="18px">
+<tspan x="15" y="25">                                   </tspan>
+<tspan x="15" y="47">               :::                 </tspan>
+<tspan x="15" y="69">         :!|!!iqqi|iii!,           </tspan>
+<tspan x="15" y="91">       &apos;immq|iqm#mqqm##mq|&apos;        </tspan>
+<tspan x="15" y="113">     &apos;qm#wmm#w##ggw##w##wmmq.      </tspan>
+<tspan x="15" y="135">    iwwwwgw#g%wggggwww#ii#wgw!     </tspan>
+<tspan x="15" y="157">   igggg%%m!&quot;,,iwwggi    .!mgg|    </tspan>
+<tspan x="15" y="179">  &apos;%g%%%w&apos;,.,..  ,#! .&quot;&quot;&quot;&quot;&apos;..wg:   </tspan>
+<tspan x="15" y="201">  m%%m&quot;&apos;.&apos;&apos;&apos;,&apos;&apos;&apos;     ,:   :  !%|   </tspan>
+<tspan x="15" y="223">  #gggm  :           ..  :.!|%%#   </tspan>
+<tspan x="15" y="245">  #gg#q&quot;i&quot;&quot;!,::       ::  :,,wg%.  </tspan>
+<tspan x="15" y="267">  q%wgw##&apos;!q|&apos;|w#&apos;  :.       |wgi  </tspan>
+<tspan x="15" y="289">  &quot;%w#.,:  ,,...::&apos;&quot;|| ..!#: iqw#  </tspan>
+<tspan x="15" y="311">  ,W%|    .w%wmqqmg%$WMNN%! &quot;&quot; #g  </tspan>
+<tspan x="15" y="333">  .%g,   ,,&quot;igWMMM@@%W&quot;&apos;&quot;  &apos;#mqmg! </tspan>
+<tspan x="15" y="355">   ggi    .. &quot;wi!i!  ..!|mw&quot;|%%gg# </tspan>
+<tspan x="15" y="377">   wg|:#&apos;   ,..::!|:&apos;m%%m#ww#gg#wg </tspan>
+<tspan x="15" y="399">   m%|.mw!   !&apos; ,&apos;  ,!ww###|q#wim%!</tspan>
+<tspan x="15" y="421">   iw:&quot;!|&quot;. &apos;&quot;&apos;.  &quot;:,#qm!qq  &apos;&quot;&apos;qg#</tspan>
+</text>
+<text x="390" y="30" fill="#1f2328">
+<tspan x="390" y="30">Asindu Vidanagamachchi@asinduvg ───────────────────</tspan>
+<tspan x="390" y="55" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Software Engineer | Gra..</tspan>
+<tspan x="390" y="75" class="cc">. </tspan><tspan class="key">Founder</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">SLESS &amp; BlendedChat</tspan>
+<tspan x="390" y="95" class="cc">. </tspan><tspan class="key">Coding Since</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">8+ years</tspan>
+<tspan x="390" y="115" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">74</tspan>
+<tspan x="390" y="135" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">32</tspan>
+<tspan x="390" y="155" class="cc">. </tspan><tspan class="key">SO Rep</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">67</tspan>
+<tspan x="390" y="175" class="cc">. </tspan><tspan class="key">Blog</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">https://medium.com/@asi..</tspan>
+<tspan x="390" y="205" class="key">─ Top Languages ───────────────────────────────────</tspan>
+<tspan x="390" y="227" class="cc">. </tspan><tspan class="key">TypeScript</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">███████░░░░░░░░ 44%</tspan>
+<tspan x="390" y="247" class="cc">. </tspan><tspan class="key">Scala</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">████░░░░░░░░░░░ 26%</tspan>
+<tspan x="390" y="267" class="cc">. </tspan><tspan class="key">PHP</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">██░░░░░░░░░░░░░ 13%</tspan>
+<tspan x="390" y="287" class="cc">. </tspan><tspan class="key">JavaScript</tspan>:<tspan class="cc"> .................. </tspan><tspan class="value">█░░░░░░░░░░░░░░ 9%</tspan>
+<tspan x="390" y="307" class="cc">. </tspan><tspan class="key">MATLAB</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">█░░░░░░░░░░░░░░ 8%</tspan>
+<tspan x="390" y="337" class="key">─ Contact ─────────────────────────────────────────</tspan>
+<tspan x="390" y="359" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">asinduvg@outlook.com</tspan>
+<tspan x="390" y="379" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">asindu-vidanagamachchi</tspan>
+<tspan x="390" y="399" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">asinduvg</tspan>
+</text>
+</svg>

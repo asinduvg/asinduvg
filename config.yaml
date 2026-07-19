@@ -1,0 +1,63 @@
+username: asinduvg
+stackoverflow_id: 9411241
+
+# These fields are auto-fetched from your GitHub profile:
+#   - name, bio, public_repos, followers, following
+#   - pinned repositories (name, description, language, stars)
+# Just update your GitHub profile and the README regenerates.
+
+# Add any custom fields below. These appear in the right-side panel.
+# Delete or add sections as you like.
+
+sections:
+  - title: null  # top section has no title
+    fields:
+      - key: Role
+        value: from_bio  # pulls from your GitHub bio
+      - key: Founder
+        value: SLESS & BlendedChat
+      - key: Coding Since
+        value: from_github  # auto: account age
+      - key: Repos
+        value: from_github  # auto: public repo count
+      - key: Followers
+        value: from_github  # auto: follower count
+      - key: SO Rep
+        value: from_github  # auto: Stack Overflow reputation
+      - key: Blog
+        value: from_github  # auto: blog URL from profile
+
+  - title: Pinned Projects
+    source: pinned_repos  # auto-populated from your GitHub pinned repos
+
+  - title: Top Languages
+    source: top_languages  # auto-aggregated from non-forked repos
+
+  - title: Contact
+    fields:
+      - key: Email
+        value: asinduvg@outlook.com
+      - key: LinkedIn
+        value: asindu-vidanagamachchi
+      - key: GitHub
+        value: asinduvg
+
+# SVG styling
+style:
+  dark:
+    bg: "#161b22"
+    text: "#c9d1d9"
+    key: "#ffa657"
+    value: "#a5d6ff"
+    muted: "#616e7f"
+  light:
+    bg: "#ffffff"
+    text: "#1f2328"
+    key: "#bf8700"
+    value: "#0550ae"
+    muted: "#656d76"
+
+# ASCII art settings
+ascii:
+  width: 35       # characters wide
+  chars: "N@M$W%gw#mqi|!\"',.:  "  # dark to light, sparse for portrait look
