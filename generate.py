@@ -198,8 +198,8 @@ def resolve_fields(section, profile, pinned, top_langs=None, extras=None):
             }
             value = mapping.get(key, "N/A")
 
-        if len(value) > 25:
-            value = value[:23] + ".."
+        if len(value) > 40:
+            value = value[:38] + ".."
 
         resolved.append({"key": key, "value": value})
     return resolved
@@ -233,7 +233,7 @@ def build_right_panel(config, profile, pinned, top_langs=None, extras=None):
         for field in fields:
             key = field["key"]
             value = field["value"]
-            dot_count = max(2, 28 - len(key))
+            dot_count = max(2, 18 - len(key))
             dots = "." * dot_count
             lines.append(("field", y, key, dots, value))
             y += 20
