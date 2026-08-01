@@ -3,6 +3,7 @@
 
 import json
 import subprocess
+import time
 import urllib.request
 from datetime import datetime, timezone
 from io import BytesIO
@@ -17,12 +18,41 @@ def load_config():
         return yaml.safe_load(f)
 
 
+def run_gh(args):
+    """Run a gh command, surfacing stderr on failure.
+
+    subprocess's CalledProcessError hides captured stderr, which turns a clear
+    "HTTP 502" into an unreadable traceback in CI logs.
+    """
+    result = subprocess.run(args, capture_output=True, text=True)
+    if result.returncode != 0:
+        raise RuntimeError(
+            f"{' '.join(args[:3])} failed (exit {result.returncode}): "
+            f"{result.stderr.strip() or result.stdout.strip()}"
+        )
+    return result.stdout
+
+
+def graphql(query, retries=3):
+    """Run a GraphQL query, retrying transient 5xx errors with backoff.
+
+    Commit-history counts are expensive server-side, so GitHub intermittently
+    times out and returns a 502 even for well-formed queries.
+    """
+    for attempt in range(retries):
+        try:
+            return json.loads(run_gh(["gh", "api", "graphql", "-f", "query=" + query]))
+        except RuntimeError as e:
+            transient = any(code in str(e) for code in ("502", "503", "504"))
+            if not transient or attempt == retries - 1:
+                raise
+            delay = 2 ** attempt
+            print(f"  transient error, retrying in {delay}s ({attempt + 1}/{retries})...")
+            time.sleep(delay)
+
+
 def fetch_github_profile(username):
-    result = subprocess.run(
-        ["gh", "api", f"users/{username}"],
-        capture_output=True, text=True, check=True,
-    )
-    return json.loads(result.stdout)
+    return json.loads(run_gh(["gh", "api", f"users/{username}"]))
 
 
 def fetch_pinned_repos(username):
@@ -31,40 +61,47 @@ def fetch_pinned_repos(username):
         '{ nodes { ... on Repository { name description stargazerCount '
         'primaryLanguage { name } } } } } }' % username
     )
-    result = subprocess.run(
-        ["gh", "api", "graphql", "-f", f"query={query}"],
-        capture_output=True, text=True, check=True,
-    )
-    data = json.loads(result.stdout)
+    data = graphql(query)
     return data["data"]["user"]["pinnedItems"]["nodes"]
 
 
 def fetch_user_node_id(username):
-    result = subprocess.run(
-        ["gh", "api", "graphql", "-f",
-         'query={ user(login: "' + username + '") { id } }'],
-        capture_output=True, text=True, check=True,
-    )
-    return json.loads(result.stdout)["data"]["user"]["id"]
+    data = graphql('{ user(login: "' + username + '") { id } }')
+    return data["data"]["user"]["id"]
+
+
+# Each repo costs two full commit-history traversals server-side, so large
+# pages tip GitHub past its resolver timeout and return a 502.
+REPO_PAGE_SIZE = 25
+
+
+def fetch_repos_with_commit_ratio(username, user_id):
+    """Page through owned repos, collecting language bytes and commit counts."""
+    repos = []
+    cursor = "null"
+    while True:
+        query = (
+            '{ user(login: "' + username + '") { repositories(first: '
+            + str(REPO_PAGE_SIZE) + ', after: ' + cursor + ', isFork: false, '
+            'ownerAffiliations: OWNER, orderBy: {field: UPDATED_AT, direction: DESC}) '
+            '{ pageInfo { hasNextPage endCursor } '
+            'nodes { languages(first: 10) { edges { size node { name } } } '
+            'defaultBranchRef { target { ... on Commit { '
+            'history { totalCount } '
+            'authorHistory: history(author: {id: "' + user_id + '"}) { totalCount } '
+            '} } } } } } }'
+        )
+        page = graphql(query)["data"]["user"]["repositories"]
+        repos.extend(page["nodes"])
+        print(f"  fetched {len(repos)} repos...")
+        if not page["pageInfo"]["hasNextPage"]:
+            return repos
+        cursor = '"' + page["pageInfo"]["endCursor"] + '"'
 
 
 def fetch_top_languages(username, limit=5):
     user_id = fetch_user_node_id(username)
-    query = (
-        '{ user(login: "' + username + '") { repositories(first: 100, isFork: false, '
-        'ownerAffiliations: OWNER, orderBy: {field: UPDATED_AT, direction: DESC}) '
-        '{ nodes { languages(first: 10) { edges { size node { name } } } '
-        'defaultBranchRef { target { ... on Commit { '
-        'history { totalCount } '
-        'authorHistory: history(author: {id: "' + user_id + '"}) { totalCount } '
-        '} } } } } } }'
-    )
-    result = subprocess.run(
-        ["gh", "api", "graphql", "-f", "query=" + query],
-        capture_output=True, text=True, check=True,
-    )
-    data = json.loads(result.stdout)
-    repos = data["data"]["user"]["repositories"]["nodes"]
+    repos = fetch_repos_with_commit_ratio(username, user_id)
 
     bytes_per_lang = {}
     for repo in repos:
